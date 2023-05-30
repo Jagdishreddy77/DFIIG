@@ -12,5 +12,11 @@ pipeline{
 				sh 'echo Test is SUCCESSFUL'
 }
 }
+					stage('baby'){
+						steps{
+							sh 'echo baby is successful'
+}
+}
+
     }
 }
