@@ -14,7 +14,7 @@ pipeline{
 }
 					stage('baby'){
 						steps{
-							sh 'echo baby is successful calling from ${JENKINS_URL}'
+							sh 'echo baby is successfully in his studies calling from ${JENKINS_URL}'
 }
 }
 
