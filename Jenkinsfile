@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                sh 'echo Build is successful'
+                sh 'echo Build is successful calling from ${JOB_NAME}'
             }
         }
     }
