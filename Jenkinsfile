@@ -1,5 +1,6 @@
 #!/bin/bash
-read -p "Please enter the username :" username
+read -p sh 'echo please enter the username : ' username
+read -p sh 'echo Please enter the password : ' password
 
 
 
@@ -24,7 +25,6 @@ echo "Welcome $username, You entered a valid username"
             }
         }
 
-read -p "Please enter the password : " password
 
 		stage('Userpassword_Validation'){
 			steps{
