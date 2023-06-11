@@ -46,11 +46,11 @@ sh '''done
 				sh 'echo Userpassword_Validation  is SUCCESSFUL'
 }
 }
-				#	stage('baby'){
-				#		steps{
-				#			sh 'echo baby is successfully in his studies calling from ${JENKINS_URL}'
+
+
+
 }
 }
 
-   # }
-#}
+
+
