@@ -24,8 +24,8 @@ sh '''fi
 '''
 sh '''done
 '''
-sh 'echo Welcome $username, You entered a valid username'
-                sh 'echo Username Validation is successful'
+
+
             }
         }
 
@@ -43,7 +43,7 @@ sh '''do
 sh '''done
 '''
 
-				sh 'echo Userpassword_Validation  is SUCCESSFUL'
+
 			}
 		}		
 
