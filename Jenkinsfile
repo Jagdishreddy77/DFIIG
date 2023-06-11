@@ -1,4 +1,4 @@
-#!/bin/bash
+sh'''!/bin/bash'''
 sh '''read -p "Please enter the username :" username'''
 sh '''read -p "Please enter the password : "password'''
 
@@ -44,13 +44,14 @@ sh '''done
 '''
 
 				sh 'echo Userpassword_Validation  is SUCCESSFUL'
-}
-}
+			}
+		}		
 
 
 
+	}
 }
-}
+
 
 
 
