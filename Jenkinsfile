@@ -1,6 +1,6 @@
 #!/bin/bash
-read -p sh 'echo please enter the username : ' username
-read -p sh 'echo Please enter the password : ' password
+read -p  'echo please enter the username : ' username
+read -p  'echo Please enter the password : ' password
 
 
 
