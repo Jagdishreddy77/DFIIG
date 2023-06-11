@@ -32,7 +32,8 @@ sh 'echo Welcome $username, You entered a valid username'
 
 		stage('Userpassword_Validation'){
 			steps{
-				sh 'while ! [[ $password =~ ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)+$  ]]'
+sh '''while ! [[ $password =~ ^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)+$  ]]
+'''
 sh '''do
 '''
 	sh 'echo Please enter a password with Alphanumeric and Upper-lower case combination'
