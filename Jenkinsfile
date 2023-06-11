@@ -10,7 +10,7 @@ pipeline{
     stages{
         stage('Username_Validation'){
             steps{
-		while ! [[ $username =~ ^[A-Z]*$  && $username  != *" "* ]]
+sh 'while ! [[ $username =~ ^[A-Z]*$  && $username  != *" "* ]]'
 		do
 			sh 'echo Welcome $username, You entered a valid username
 else
@@ -20,7 +20,7 @@ else
 			continue
 fi
 done
-echo "Welcome $username, You entered a valid username"
+sh 'echo "Welcome $username, You entered a valid username'
                 sh 'echo Username Validation is successful'
             }
         }
@@ -28,7 +28,7 @@ echo "Welcome $username, You entered a valid username"
 
 		stage('Userpassword_Validation'){
 			steps{
-				while ! [[ $password =~ ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)+$  ]]
+				sh 'while ! [[ $password =~ ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)+$  ]]'
 do
 	sh 'echo Please enter a password with Alphanumeric and Upper-lower case combination'
 	sh 'echo Enter the password : ' 
