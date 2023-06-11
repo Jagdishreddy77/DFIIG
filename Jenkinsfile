@@ -13,8 +13,9 @@ pipeline{
 sh 'while ! [[ $username =~ ^[A-Z]*$  && $username  != *" "* ]]'
 sh '''do
 '''
-			sh 'echo Welcome $username, You entered a valid username
-else
+			sh 'echo Welcome $username, You entered a valid username'
+sh '''else
+'''
 			sh 'echo Username should be capital alphabets only without spaces'
 			sh 'echo Enter a Capital letter username with no spaces : ' 
 			read username
