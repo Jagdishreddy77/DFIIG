@@ -19,7 +19,7 @@ sh '''else
 			sh 'echo Username should be capital alphabets only without spaces'
 			sh 'echo Enter a Capital letter username with no spaces : ' 
 			read username
-			continue
+
 sh '''fi
 '''
 sh '''done
@@ -39,7 +39,7 @@ sh '''do
 	sh 'echo Please enter a password with Alphanumeric and Upper-lower case combination'
 	sh 'echo Enter the password : ' 
 	read password
-	continue
+
 sh '''done
 '''
 
