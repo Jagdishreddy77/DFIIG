@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 sh '''read -p "Please enter the username :" username'''
 sh '''read -p "Please enter the password : "password'''
 
